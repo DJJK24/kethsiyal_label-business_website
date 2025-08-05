@@ -14,23 +14,22 @@ body {
   padding: 0 20px;
 }
 header {
-  background: #fff;
+  background: #ffffff;
   width: 100%;
-  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* optional shadow */
+  position: relative;
+  z-index: 1000;
 }
+
 .nav {
+  max-width: 1200px; /* Optional: center content inside navbar */
+  margin: 0 auto;
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 20px;
-   box-shadow: #444;
-  width: 100%;
-  height: 80;
-  opacity: 1;
-  align-items: center;
-
-
 }
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -526,6 +525,9 @@ flex-grow: 0;
   color: #777;
 }
 
+
+
+/* site-footer */
 
 .site-footer {
   background-color: #2e004d;
